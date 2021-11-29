@@ -1,0 +1,13 @@
+Index:
+Incorpore la etiqueta meta description y meta keywords (Radiohead, Music, Tour, Rock, Spotify). 
+E incorpore una etiqueta <strong> en la etiqueta <p>
+Tour:
+Incorpore la etiqueta meta description y meta keywords(Radiohead, Tour, Us, Argentina).
+Gallery:
+Incorpore la etiqueta meta description y meta keywords(Radiohead, Videos, Photos)
+Music:
+Incorpore la etiqueta meta description y meta keywords(Radiohead, Discography, Spotify, Music)
+Newsletter:
+Incorpore la etiqueta meta description y meta keywords(Radiohead, Newsletter, Labels, Band, Information)
+Y utilice la etiqueta <strong> en la etiqueta <p>
+

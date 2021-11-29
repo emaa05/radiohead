@@ -1,0 +1,57 @@
+/* variables */
+
+$width:100%;
+$height:10vh;
+
+$lang:fr;
+
+// foto
+
+.yorke{
+ height: auto;
+ margin: auto;
+ margin-top: 1rem;
+ display: block;
+ border-radius: 5px;
+ box-shadow: 5px 5px 0 px #ccc;
+ @if $lang==es{background-image: url(Imagenes/banda6.jpg)}
+ @else if $lang==en{background-image: url(Imagenes/banda5.jpg)}
+ @else if $lang==es{background-image: url(Imagenes/banda4.jpg)}
+ @else{background-image: url(Imagenes/banda3.jpg)};
+} 
+
+// iconos links //
+
+@each $icono in instagram, spotify, twitter, facebook{
+    .#{$icono}-icon{
+        background-image:url(Imagenes/#{$icono}.png);
+        width: 30px;
+        height: 30px;
+        background-size:100%;
+        list-style: none;
+    }
+}
+
+
+// extends
+
+.labels{
+    padding: 2rem;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+.news{
+    @extend .labels
+}
+
+
+
+
+
+
+
