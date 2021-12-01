@@ -70,13 +70,16 @@ h6{
 
 @media (max-width: 400px){
   body{
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: 0.4fr 2.2fr 0.4fr;
-      grid-template-areas: "header header header" " main main main" "footer footer footer";
+      grid-template-areas: 
+      "header header header"
+      " main main main" 
+      "footer footer footer";
+      .yorkeTabla{
+
+      }
     }
   
 
@@ -85,9 +88,6 @@ h6{
 
 @media (max-width: 800px){
   body{
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: 0.4fr 2.2fr 0.4fr;
@@ -97,9 +97,6 @@ h6{
 }
 @media (max-width: 1200px){
   body{
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: 0.4fr 0.4fr 0.4fr;
