@@ -25,33 +25,37 @@
 	<!--cierra seo-->
 </head>
 <body>
-<!--empieza navbar-->
-	<header class="botonera">
-		<div class="radiohead">
-    	<h1 class="radiohead-transform">Radiohead</h1>
+	<!--empieza navbar-->
+<header>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Radiohead</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="tour.html">Tour</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="gallery.html">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="music.html">Music</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="newsletter.html">Newsletter</a>
+        </li>
+      </ul>
     </div>
-			<nav>
-		<ul class="botoneraMenu">
-			<li>
-				<a href="index.html">Home</a>
-			</li>
-			<li>
-				<a href="tour.html">Tour</a>
-			</li>
-			<li>
-				<a href="gallery.html">Gallery</a>
-			</li>
-			<li>
-				<a href="music.html">Music</a>
-			</li>
-			<li>
-				<a href="newsletter.html">Newsletter</a>
-			</li>
-		</ul>
-	    	</nav>
-	</header>
-<!--cierra navbar-->
-<main>
+  </div>
+</nav>
+</header>
+	<!--cierra navbar-->
 <!--inicia section-->
 <section>
 		<div class="videos">
@@ -64,7 +68,7 @@
 <!--termina section-->
 <!--inicia section-->
 	<h6>Photos</h6>
-		<section id="galeria">
+		<section class="carousel" id="galeria">
 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -73,13 +77,13 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="Imagenes/berlin2016.jpg" class="d-block w-100" alt="...">
+      <img src="Imagenes/berlin2016.jpg" class="d-block w-20" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Germany, Berlin 2016</h5>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="Imagenes/coachella2017.jpg" class="d-block w-100" alt="...">
+      <img src="Imagenes/coachella2017.jpg" class="d-block w-20" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>USA, Coachella Valley 2017</h5>
       </div>
@@ -100,30 +104,8 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-  	<div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="Imagenes/banda1.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="Imagenes/banda2.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="Imagenes/banda3.jpg" class="d-block w-100" alt="...">
-    </div>
-</div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
 		</section>
 <!--termina section-->
-</main>
 <!--empieza footer-->
 	<footer class="links">
 	<h4>Copyright Emanuel Corradini</h4>

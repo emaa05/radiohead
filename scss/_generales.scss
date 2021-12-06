@@ -5,16 +5,7 @@ html{
 }
 
 body{
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: #39194E
-}
-
-
-main{
-  grid-area: main;
+  background-color: #39194E;
 }
 
  section p{
@@ -68,40 +59,82 @@ h6{
  }
 
 
+img{
+  display: block;
+  max-width: 100%;
+}
+
+iframe{
+  
+}
+
+header{
+
+
+}
+
+section{
+
+}
+
+footer{
+
+}
+
 @media (max-width: 400px){
   body{
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: 0.4fr 2.2fr 0.4fr;
-      grid-template-areas: 
-      "header header header"
-      " main main main" 
-      "footer footer footer";
-      .yorkeTabla{
-
-      }
-    }
-  
-
+    display: flex;
+    flex-direction: column;
+  }
 
 }
 
 @media (max-width: 800px){
   body{
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: 0.4fr 2.2fr 0.4fr;
-      grid-template-areas: "header header header" " main main main" "footer footer footer";
-    }
+    display: flex;
+    flex-direction: column;
+  }
+  img{
+    height: 90px;
+  }
+  form{
+    font-size: 10px;
+  }
+  legend{
+    font-size: 10px;
+  }
+  p{
+    width: 40%;
+  }
+
+  .tabla{
+    margin-left: 1rem;
+  }
+
+  .radio__caja1{
+    font-size: 15px;
+  }
+
+  .carousel{
+    width: 40%;
+  }
+
+  .albums{
+    height: 10%
+  }
+
+  .newsfoto{
+   
+   height: 20px;
+  }
   
 }
+
 @media (max-width: 1200px){
   body{
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: 0.4fr 0.4fr 0.4fr;
-      grid-template-areas: "header header header" " main main main" "footer footer footer";
-    }
-  
+    display: flex;
+    flex-direction: column;
+  }
+
 }
 

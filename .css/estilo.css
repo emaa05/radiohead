@@ -43,31 +43,6 @@
   justify-content: space-between; }
 
 /* header */
-header {
-  grid-area: header; }
-
-.botonera {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #456573; }
-
-.botoneraMenu {
-  display: flex;
-  flex-direction: row; }
-
-.botoneraMenu > li {
-  font-size: 1.2rem;
-  padding: 0.4rem; }
-
-.titulo {
-  margin: 2rem auto;
-  text-align: left; }
-
-.radiohead-transform:hover {
-  transform: translate(10px); }
-
 nav ul li a {
   color: whitesmoke;
   font-family: Arial, sans-serif;
@@ -79,8 +54,7 @@ nav ul li {
 
 /* footer */
 footer {
-  padding: 1rem;
-  grid-area: footer; }
+  padding: 1rem; }
 
 .links {
   display: flex;
@@ -156,14 +130,7 @@ td {
 
 /* selector universal reset¨*/
 body {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   background-color: #39194E; }
-
-main {
-  grid-area: main; }
 
 section p {
   font-size: 1.2rem;
@@ -200,26 +167,42 @@ p {
   font-family: 'Zen Old Mincho', serif;
   color: whitesmoke; }
 
+img {
+  display: block;
+  max-width: 100%; }
+
 @media (max-width: 400px) {
   body {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.4fr 2.2fr 0.4fr;
-    grid-template-areas: "header header header" " main main main"  "footer footer footer"; } }
+    display: flex;
+    flex-direction: column; } }
 
 @media (max-width: 800px) {
   body {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.4fr 2.2fr 0.4fr;
-    grid-template-areas: "header header header" " main main main" "footer footer footer"; } }
+    display: flex;
+    flex-direction: column; }
+  img {
+    height: 90px; }
+  form {
+    font-size: 10px; }
+  legend {
+    font-size: 10px; }
+  p {
+    width: 40%; }
+  .tabla {
+    margin-left: 1rem; }
+  .radio__caja1 {
+    font-size: 15px; }
+  .carousel {
+    width: 40%; }
+  .albums {
+    height: 10%; }
+  .newsfoto {
+    height: 20px; } }
 
 @media (max-width: 1200px) {
   body {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.4fr 0.4fr 0.4fr;
-    grid-template-areas: "header header header" " main main main" "footer footer footer"; } }
+    display: flex;
+    flex-direction: column; } }
 
 .foto {
   text-align: center; }

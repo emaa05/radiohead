@@ -1,36 +1,5 @@
 /* header */ 
 
-header{
-  grid-area: header;
-}
-
-
-.botonera{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  background-color:#456573
-}
-
-.botoneraMenu{
-  display: flex;
-  flex-direction: row;
-}
-
-.botoneraMenu>li{
-  font-size: 1.2rem;
-  padding: 0.4rem
-}
-
-.titulo{
-  margin: 2rem auto;
-  text-align: left;
-}
-
-.radiohead-transform:hover{
-  transform: translate(10px);
-}
 
 nav ul li a{
   color: whitesmoke;
