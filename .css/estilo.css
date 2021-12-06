@@ -138,27 +138,7 @@ section p {
   letter-spacing: 1px;
   word-spacing: 2px; }
 
-h1 {
-  color: whitesmoke;
-  font-size: 2rem;
-  font-family: 'Scheherazade New', serif; }
-
-h2 {
-  color: whitesmoke;
-  font-size: 2rem;
-  font-family: 'Scheherazade New', serif; }
-
-h3 {
-  color: whitesmoke;
-  font-size: 2rem;
-  font-family: 'Scheherazade New', serif; }
-
-h4 {
-  color: whitesmoke;
-  font-family: inherit;
-  margin-bottom: left; }
-
-h6 {
+h1, h2, h3, h4, h5, h6 {
   color: whitesmoke;
   font-size: 2rem;
   font-family: 'Scheherazade New', serif; }
@@ -187,12 +167,12 @@ img {
     margin-left: 1rem; }
   .radio__caja1 {
     font-size: 15px; }
+  .radio__caja2 {
+    height: 300px; }
   .carousel {
-    width: 40%; }
+    width: 100%; }
   .albums {
-    height: 10%; }
-  .newsfoto {
-    height: 20px; } }
+    height: 10%; } }
 
 @media (max-width: 800px) {
   body {
@@ -223,16 +203,5 @@ img {
 .foto {
   text-align: center; }
 
-#galeria {
-  max-width: 90%;
-  display: grid;
-  grid-template-columns: 500px 500px 500px;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-gap: 1rem;
-  margin: 1rem auto 1rem auto; }
-
 .videos {
   margin-top: 3rem; }
-
-.newsfoto {
-  margin-left: 10vh; }

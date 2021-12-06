@@ -15,11 +15,42 @@ body{
   word-spacing: 2px;
  }
 
- h1,h2,h3,h4,h5,h6{
+ h1{
+  color: whitesmoke;
+  font-size: 2rem;
+  font-family: 'Scheherazade New', serif;
+
+  }
+h2{
   color: whitesmoke;
   font-size: 2rem;
   font-family: 'Scheherazade New', serif;
 }
+
+h3{
+  color: whitesmoke;
+  font-size: 2rem;
+  font-family: 'Scheherazade New', serif;
+
+ }
+
+
+h4{
+  color: whitesmoke;
+  font-family: inherit;
+  margin-bottom:left ;
+}
+
+h5{
+  
+}
+
+h6{
+  color: whitesmoke;
+  font-size: 2rem;
+  font-family: 'Scheherazade New', serif;
+}
+
 
 
  p{
@@ -33,6 +64,22 @@ img{
   max-width: 100%;
 }
 
+iframe{
+  
+}
+
+header{
+
+
+}
+
+section{
+
+}
+
+footer{
+
+}
 
 @media (max-width: 400px){
   body{
@@ -59,21 +106,20 @@ img{
 
   .radio__caja1{
     font-size: 15px;
-
-  }
-
-  .radio__caja2{
-    height: 300px;
   }
 
   .carousel{
-    width: 100%;
+    width: 40%;
   }
 
   .albums{
     height: 10%
   }
 
+  .newsfoto{
+   
+   height: 20px;
+  }
 }
 
 @media (max-width: 800px){
@@ -110,6 +156,9 @@ img{
     height: 10%
   }
 
+  .newsfoto{
+
+  }
   
 }
 

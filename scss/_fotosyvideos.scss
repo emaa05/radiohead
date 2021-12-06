@@ -3,19 +3,7 @@
 }
 
 
-#galeria{
-  max-width: 90%;
-  display: grid;
-  grid-template-columns: 500px 500px 500px;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-gap: 1rem;
-  margin: 1rem auto 1rem auto;
-}
-
 .videos{
   margin-top: 3rem;
 }
 
-.newsfoto{
-  margin-left: 10vh;
-}
