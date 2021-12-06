@@ -87,6 +87,39 @@ footer{
     flex-direction: column;
   }
 
+img{
+    height: 90px;
+  }
+  form{
+    font-size: 10px;
+  }
+  legend{
+    font-size: 10px;
+  }
+  p{
+    width: 40%;
+  }
+
+  .tabla{
+    margin-left: 1rem;
+  }
+
+  .radio__caja1{
+    font-size: 15px;
+  }
+
+  .carousel{
+    width: 40%;
+  }
+
+  .albums{
+    height: 10%
+  }
+
+  .newsfoto{
+   
+   height: 20px;
+  }
 }
 
 @media (max-width: 800px){
@@ -124,8 +157,7 @@ footer{
   }
 
   .newsfoto{
-   
-   height: 20px;
+
   }
   
 }
