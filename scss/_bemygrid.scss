@@ -27,16 +27,3 @@
   width: 50%;
   box-sizing: border-box;
 }
-
-.grid{
-  display: grid;  
-}
-
-.template-areas{
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: 5vh;
-  grid-template-areas: "parrafo" "news" ;
-}
-
-
-

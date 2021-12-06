@@ -46,9 +46,7 @@
 nav ul li a {
   color: whitesmoke;
   font-family: Arial, sans-serif;
-  text-decoration: none; }
-
-nav ul li {
+  text-decoration: none;
   list-style: none;
   display: inline-block; }
 
@@ -119,14 +117,6 @@ td {
 .radio__caja2 {
   width: 50%;
   box-sizing: border-box; }
-
-.grid {
-  display: grid; }
-
-.template-areas {
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: 5vh;
-  grid-template-areas: "parrafo" "news"; }
 
 /* selector universal reset¨*/
 body {
