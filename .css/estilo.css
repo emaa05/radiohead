@@ -106,18 +106,6 @@ td {
 .radio__grammy {
   background-color: #07EAF2; }
 
-.radio__caja1 {
-  color: whitesmoke;
-  font-family: 'Zen Old Mincho', serif;
-  width: 50%;
-  float: left;
-  box-sizing: border-box;
-  background: linear-gradient(to right, blueviolet, lightblue); }
-
-.radio__caja2 {
-  width: 50%;
-  box-sizing: border-box; }
-
 /* selector universal reset¨*/
 body {
   background-color: #39194E; }
@@ -128,7 +116,27 @@ section p {
   letter-spacing: 1px;
   word-spacing: 2px; }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
+  color: whitesmoke;
+  font-size: 2rem;
+  font-family: 'Scheherazade New', serif; }
+
+h2 {
+  color: whitesmoke;
+  font-size: 2rem;
+  font-family: 'Scheherazade New', serif; }
+
+h3 {
+  color: whitesmoke;
+  font-size: 2rem;
+  font-family: 'Scheherazade New', serif; }
+
+h4 {
+  color: whitesmoke;
+  font-family: inherit;
+  margin-bottom: left; }
+
+h6 {
   color: whitesmoke;
   font-size: 2rem;
   font-family: 'Scheherazade New', serif; }
@@ -141,10 +149,15 @@ img {
   display: block;
   max-width: 100%; }
 
+.contenedor-banda {
+  display: flex;
+  flex-direction: row; }
+
+.videos-flex {
+  display: flex;
+  flex-direction: row; }
+
 @media (max-width: 400px) {
-  body {
-    display: flex;
-    flex-direction: column; }
   img {
     height: 90px; }
   form {
@@ -153,15 +166,28 @@ img {
     font-size: 10px; }
   p {
     width: 40%; }
+  h4 {
+    width: 20%; }
   .tabla {
     margin-left: 1rem; }
-  .radio__caja1 {
-    font-size: 15px; }
-  .radio__caja2 {
-    height: 300px; }
   .carousel {
     width: 100%; }
   .albums {
+    height: 10%; }
+  .newsfoto {
+    height: 20px; }
+  .contenedor {
+    display: flex;
+    flex-direction: row; }
+  .contenedor {
+    display: flex;
+    flex-direction: column; }
+  .contenedor-banda {
+    display: flex;
+    flex-direction: column; }
+  .albums {
+    display: flex;
+    flex-direction: column;
     height: 10%; } }
 
 @media (max-width: 800px) {
@@ -178,17 +204,20 @@ img {
     width: 40%; }
   .tabla {
     margin-left: 1rem; }
-  .radio__caja1 {
-    font-size: 15px; }
   .carousel {
     width: 40%; }
-  .albums {
-    height: 10%; } }
+  .contenedor-banda {
+    display: flex;
+    flex-direction: column; }
+  .img-thumbnail {
+    width: 40%; } }
 
 @media (max-width: 1200px) {
   body {
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column; }
+  .img-thumbnail {
+    width: 40%; } }
 
 .foto {
   text-align: center; }

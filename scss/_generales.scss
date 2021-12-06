@@ -15,7 +15,37 @@ body{
   word-spacing: 2px;
  }
 
- h1,h2,h3,h4,h5,h6{
+ h1{
+  color: whitesmoke;
+  font-size: 2rem;
+  font-family: 'Scheherazade New', serif;
+
+  }
+h2{
+  color: whitesmoke;
+  font-size: 2rem;
+  font-family: 'Scheherazade New', serif;
+}
+
+h3{
+  color: whitesmoke;
+  font-size: 2rem;
+  font-family: 'Scheherazade New', serif;
+
+ }
+
+
+h4{
+  color: whitesmoke;
+  font-family: inherit;
+  margin-bottom:left ;
+}
+
+h5{
+  
+}
+
+h6{
   color: whitesmoke;
   font-size: 2rem;
   font-family: 'Scheherazade New', serif;
@@ -34,14 +64,20 @@ img{
   max-width: 100%;
 }
 
+.contenedor-banda{
+  display: flex;
+  flex-direction: row;
+}
+
+.videos-flex{
+  display: flex;
+  flex-direction: row;
+
+}
 
 @media (max-width: 400px){
-  body{
-    display: flex;
-    flex-direction: column;
-  }
 
-img{
+  img{
     height: 90px;
   }
   form{
@@ -54,17 +90,12 @@ img{
     width: 40%;
   }
 
+  h4{
+    width: 20%;
+  }
+
   .tabla{
     margin-left: 1rem;
-  }
-
-  .radio__caja1{
-    font-size: 15px;
-
-  }
-
-  .radio__caja2{
-    height: 300px;
   }
 
   .carousel{
@@ -74,6 +105,34 @@ img{
   .albums{
     height: 10%
   }
+
+  .newsfoto{
+    height: 20px;
+  }
+
+  .contenedor{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .contenedor{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contenedor-banda{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .albums{
+    display: flex;
+    flex-direction: column;
+    height: 10%
+  }
+
+
+
 
 }
 
@@ -99,16 +158,17 @@ img{
     margin-left: 1rem;
   }
 
-  .radio__caja1{
-    font-size: 15px;
-  }
-
   .carousel{
     width: 40%;
   }
 
-  .albums{
-    height: 10%
+  .contenedor-banda{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-thumbnail{
+    width: 40%;
   }
 
   
@@ -118,6 +178,10 @@ img{
   body{
     display: flex;
     flex-direction: column;
+  }
+
+  .img-thumbnail{
+    width: 40%;
   }
 
 }
