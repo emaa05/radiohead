@@ -108,7 +108,11 @@ td {
 
 /* selector universal reset¨*/
 body {
-  background-color: #39194E; }
+  background-color: #39194E;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between; }
 
 section p {
   font-size: 1.2rem;
@@ -149,6 +153,10 @@ img {
   display: block;
   max-width: 100%; }
 
+.contenedor {
+  display: flex;
+  justify-content: center; }
+
 .contenedor-banda {
   display: flex;
   flex-direction: row; }
@@ -157,9 +165,10 @@ img {
   display: flex;
   flex-direction: row; }
 
+.albums {
+  margin: auto; }
+
 @media (max-width: 400px) {
-  img {
-    height: 90px; }
   form {
     font-size: 10px; }
   legend {
@@ -171,11 +180,9 @@ img {
   .tabla {
     margin-left: 1rem; }
   .carousel {
-    width: 100%; }
+    width: 70%; }
   .albums {
     height: 10%; }
-  .newsfoto {
-    height: 20px; }
   .contenedor {
     display: flex;
     flex-direction: row; }
@@ -188,7 +195,10 @@ img {
   .albums {
     display: flex;
     flex-direction: column;
-    height: 10%; } }
+    height: 10%; }
+  .labels, .news {
+    display: flex;
+    flex-direction: column; } }
 
 @media (max-width: 800px) {
   body {
@@ -205,7 +215,10 @@ img {
   .tabla {
     margin-left: 1rem; }
   .carousel {
-    width: 40%; }
+    width: 70%; }
+  .contenedor {
+    display: flex;
+    flex-direction: column; }
   .contenedor-banda {
     display: flex;
     flex-direction: column; }

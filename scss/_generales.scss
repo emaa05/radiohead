@@ -6,6 +6,10 @@ html{
 
 body{
   background-color: #39194E;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
 }
 
  section p{
@@ -64,6 +68,12 @@ img{
   max-width: 100%;
 }
 
+
+.contenedor{
+  display: flex;
+  justify-content: center;
+}
+
 .contenedor-banda{
   display: flex;
   flex-direction: row;
@@ -72,14 +82,16 @@ img{
 .videos-flex{
   display: flex;
   flex-direction: row;
-
 }
+
+.albums{
+  margin: auto;
+}
+
+
 
 @media (max-width: 400px){
 
-  img{
-    height: 90px;
-  }
   form{
     font-size: 10px;
   }
@@ -99,15 +111,11 @@ img{
   }
 
   .carousel{
-    width: 100%;
+    width: 70%;
   }
 
   .albums{
     height: 10%
-  }
-
-  .newsfoto{
-    height: 20px;
   }
 
   .contenedor{
@@ -129,6 +137,11 @@ img{
     display: flex;
     flex-direction: column;
     height: 10%
+  }
+
+  .labels{
+    display: flex;
+    flex-direction: column;
   }
 
 
@@ -159,7 +172,12 @@ img{
   }
 
   .carousel{
-    width: 40%;
+    width: 70%;
+  }
+
+  .contenedor{
+    display: flex;
+    flex-direction: column;
   }
 
   .contenedor-banda{
@@ -170,6 +188,7 @@ img{
   .img-thumbnail{
     width: 40%;
   }
+
 
   
 }
