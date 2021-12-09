@@ -1,5 +1,7 @@
 /* selector universal reset¨*/
 
+*{ font-family: Arial, sans-serif; }
+
 html{
 
 }
@@ -12,6 +14,8 @@ body{
   justify-content: space-between;
 }
 
+
+
  section p{
   font-size: 1.2rem;
   line-height: 1.6rem;
@@ -19,41 +23,11 @@ body{
   word-spacing: 2px;
  }
 
- h1{
+ h1,h2,h3,h4,h5,h6{
   color: whitesmoke;
   font-size: 2rem;
-  font-family: 'Scheherazade New', serif;
-
+  font-family: 'Scheherazade New', serif;;
   }
-h2{
-  color: whitesmoke;
-  font-size: 2rem;
-  font-family: 'Scheherazade New', serif;
-}
-
-h3{
-  color: whitesmoke;
-  font-size: 2rem;
-  font-family: 'Scheherazade New', serif;
-
- }
-
-
-h4{
-  color: whitesmoke;
-  font-family: inherit;
-  margin-bottom:left ;
-}
-
-h5{
-  
-}
-
-h6{
-  color: whitesmoke;
-  font-size: 2rem;
-  font-family: 'Scheherazade New', serif;
-}
 
 
 
@@ -88,6 +62,31 @@ img{
   margin: auto;
 }
 
+.carousel{
+  width: 70%;
+}
+
+.error404{
+  background-color: #39194E;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.error{
+  width: 50%;
+}
+
+.error-button{
+  padding: 13px 30px;
+  border-radius: 15;
+  border: none;
+  background-color: #15A0B5;
+  color: white;
+  text-decoration: none;
+}
 
 
 @media (max-width: 400px){
@@ -103,7 +102,7 @@ img{
   }
 
   h4{
-    width: 20%;
+    font-size: 15px;
   }
 
   .tabla{
@@ -145,8 +144,6 @@ img{
   }
 
 
-
-
 }
 
 @media (max-width: 800px){
@@ -165,6 +162,10 @@ img{
   }
   p{
     width: 40%;
+  }
+
+  h4{
+    font-size: 20px;
   }
 
   .tabla{
