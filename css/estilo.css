@@ -143,7 +143,7 @@ img {
   margin: auto; }
 
 .carousel {
-  width: 70%; }
+  width: 100%; }
 
 .error404 {
   background-color: #39194E;
@@ -166,7 +166,9 @@ img {
 
 @media (max-width: 360px) {
   p {
-    width: 90%; } }
+    width: 90%; }
+  .carousel {
+    width: 100%; } }
 
 @media (max-width: 400px) {
   form {
@@ -180,7 +182,7 @@ img {
   .tabla {
     margin-left: 1rem; }
   .carousel {
-    width: 70%; }
+    width: 100%; }
   .albums {
     display: flex;
     flex-direction: column;
@@ -220,7 +222,7 @@ img {
   .tabla {
     margin-left: 1rem; }
   .carousel {
-    width: 70%; }
+    width: 100%; }
   .contenedor {
     display: flex;
     flex-direction: column; }

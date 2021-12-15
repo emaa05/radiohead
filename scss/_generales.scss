@@ -63,7 +63,7 @@ img{
 }
 
 .carousel{
-  width: 70%;
+  width: 100%;
 }
 
 .error404{
@@ -88,9 +88,14 @@ img{
   text-decoration: none;
 }
 
+
 @media (max-width: 360px){
   p{
     width: 90%;
+  }
+
+  .carousel{
+    width: 100%;
   }
 }
 
@@ -116,7 +121,7 @@ img{
   }
 
   .carousel{
-    width: 70%;
+    width: 100%;
   }
 
   .albums{
@@ -184,7 +189,7 @@ img{
   }
 
   .carousel{
-    width: 70%;
+    width: 100%;
   }
 
   .contenedor{
