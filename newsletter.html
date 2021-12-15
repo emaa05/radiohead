@@ -10,7 +10,7 @@
     <!-- title -->
 	<title>Contact - Radiohead</title>
 	<!-- mi css -->
-	<link rel="stylesheet" type="text/css" href=".css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 	<!-- tipografias -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -66,29 +66,39 @@
 		<aside id="news">
 			<form action="archivo.php" method="post">
 				<fieldset>
-					<legend class="newsLetter">Get Email Updates</legend>
-					<label for="" class="newsLetter">Email Address</label>
-					<input type="text" id="Email Address"> 	<br>
+					<legend class="form-label">Get Email Updates</legend>
+    			<label for="exampleInputEmail1" class="form-label">Email address</label>
+    			<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
 					<legend class="newsLetter">SUBSCRIBE TO EMAIL UPDATES FROM:</legend>
-					<label class="newsLetter">XL Recordings</label>						
-					<input type="checkbox" value="DW"> <br>
-					<label class="newsLetter">Parlophone</label>
-					<input type="checkbox" value="Dw"> <br>
+					<div class="form-check">
+  				<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+  				<label class="form-check-label" for="exampleRadios1">
+    			Xl Recordings
+  				</label>
+					</div>
+					<div class="form-check">
+  				<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+  				<label class="form-check-label" for="exampleRadios2">
+    			Parlophone
+  				</label>
+					</div>
 				</fieldset>
 				<fieldset>
-					<legend class="newsLetter">Country</legend>
-					<label for="" class="newsLetter">Region</label>
-					<select name="sistema" id="">
-						<option value="Argentina" class="newsLetter">Argentina</option>
-						<option value="United States" class="newsLetter">United States</option>
-					</select>
-				</fieldset>
-				<label for="accept">Subscribe</label>
-				<input type="checkbox" value="accept">
-				<br>
-				<input type="reset" value="Cancel" class="gridNews">
-				<input type="submit" value="Send" class="gr">
-			</form>
+  <div class="form-row align-items-center">
+    <div class="col-auto my-1">
+      		<label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Region</label>
+      		<select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+        	<option value="1">Argentina</option>
+        	<option value="2">Usa</option>
+        	<option value="3">France</option>
+      </select>
+    </div>
+    <div class="col-auto my-1">
+      		<button type="submit" class="btn btn-primary">Submit</button>
+      		<button type="reset" class="btn btn-primary">Cancel</button>
+    </div>
+  </div>
+</form>
 		</aside>
 </div>
 <!-- cierra form-->

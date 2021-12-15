@@ -88,6 +88,12 @@ img{
   text-decoration: none;
 }
 
+@media (max-width: 360px){
+  p{
+    width: 90%;
+  }
+}
+
 
 @media (max-width: 400px){
 
@@ -98,7 +104,7 @@ img{
     font-size: 10px;
   }
   p{
-    width: 40%;
+    width: 90%;
   }
 
   h4{
@@ -114,9 +120,11 @@ img{
   }
 
   .albums{
-    height: 10%
-  }
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 
+  }
   .contenedor{
     display: flex;
     flex-direction: row;
@@ -130,12 +138,6 @@ img{
   .contenedor-banda{
     display: flex;
     flex-direction: column;
-  }
-
-  .albums{
-    display: flex;
-    flex-direction: column;
-    height: 10%
   }
 
   .labels{
@@ -154,6 +156,7 @@ img{
 
 }
 
+
 @media (max-width: 800px){
   body{
     display: flex;
@@ -169,7 +172,7 @@ img{
     font-size: 10px;
   }
   p{
-    width: 40%;
+    width: 90%;
   }
 
   h4{

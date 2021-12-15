@@ -164,13 +164,17 @@ img {
   color: white;
   text-decoration: none; }
 
+@media (max-width: 360px) {
+  p {
+    width: 90%; } }
+
 @media (max-width: 400px) {
   form {
     font-size: 10px; }
   legend {
     font-size: 10px; }
   p {
-    width: 40%; }
+    width: 90%; }
   h4 {
     font-size: 15px; }
   .tabla {
@@ -178,7 +182,9 @@ img {
   .carousel {
     width: 70%; }
   .albums {
-    height: 10%; }
+    display: flex;
+    flex-direction: column;
+    width: 100%; }
   .contenedor {
     display: flex;
     flex-direction: row; }
@@ -188,13 +194,14 @@ img {
   .contenedor-banda {
     display: flex;
     flex-direction: column; }
-  .albums {
-    display: flex;
-    flex-direction: column;
-    height: 10%; }
   .labels, .news {
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column; }
+  .tabla {
+    display: flex;
+    flex-direction: column; }
+  .yorkeTabla {
+    width: 20%; } }
 
 @media (max-width: 800px) {
   body {
@@ -207,7 +214,7 @@ img {
   legend {
     font-size: 10px; }
   p {
-    width: 40%; }
+    width: 90%; }
   h4 {
     font-size: 20px; }
   .tabla {
